@@ -9,12 +9,26 @@ h1 {
   color: red;
 }
 
+h2 {
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+
 body {
   margin: auto;
 }
 
-main {
-  background-image: url("/../images/background.jpg");
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.active {
+  background-color: lightblue;
+}
+
+a {
+  text-decoration: none;
 }
 
 .logo {
@@ -41,5 +55,51 @@ nav ul li:hover {
 nav ul li a {
   text-decoration: none;
   color: black;
+}
+
+#products {
+  padding: 30px 0;
+  background-image: url("/../images/background.jpg");
+}
+
+.card-container {
+  padding: 10px 0;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.card {
+  position: relative;
+  flex-basis: 30%;
+  margin-right: 5px;
+}
+
+.card img {
+  max-width: 100%;
+}
+
+.card .hide-card {
+  width: 100%;
+  height: 100%;
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card .hide-card a {
+  padding: 20px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.card:hover .hide-card {
+  background-color: rgba(50, 200, 250, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
