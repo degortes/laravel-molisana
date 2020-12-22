@@ -15,6 +15,9 @@ footer {
             float: left;
             width: 30%;
             padding: 50px;
+            img {
+                max-width: 100%;
+            }
 
         }
         &::after {
@@ -26,7 +29,7 @@ footer {
 
     }
     padding-bottom: 80px;
-    background-image: url(/../images/footer-la-molisana.jpg);
+    background-image: url('/../images/footer-la-molisana.jpg');
     background-repeat: no-repeat;
     background-position-y: bottom;
 }

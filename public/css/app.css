@@ -10,7 +10,7 @@ h1 {
 }
 
 h2 {
-  margin: 10px 0;
+  margin: 10px 7px;
   text-transform: uppercase;
 }
 
@@ -59,7 +59,7 @@ header nav ul li a {
 
 footer {
   padding-bottom: 80px;
-  background-image: url(/../images/footer-la-molisana.jpg);
+  background-image: url("/../images/footer-la-molisana.jpg");
   background-repeat: no-repeat;
   background-position-y: bottom;
 }
@@ -83,6 +83,11 @@ footer nav .foot-nav {
   padding: 50px;
 }
 
+footer nav .footer-logo img,
+footer nav .foot-nav img {
+  max-width: 100%;
+}
+
 footer nav::after {
   content: "";
   display: table;
@@ -103,8 +108,8 @@ footer nav::after {
 
 .card {
   position: relative;
-  flex-basis: 30%;
-  margin-right: 5px;
+  flex-basis: 32%;
+  margin: 7px;
 }
 
 .card img {
