@@ -40,3 +40,33 @@
         align-items: center;
     }
 }
+
+
+.more-details img {
+    width: 100%;
+    display: block;
+}
+
+main {
+    background-color: #b8dae4;
+    padding-bottom: 30px;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    color: white;
+    a {
+        background-color: red;
+        padding: 30px;
+
+    }
+}
+.next{
+    right: 10px;
+}
+
+.prev {
+    left: 10px;
+
+}

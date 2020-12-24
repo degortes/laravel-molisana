@@ -5,13 +5,13 @@
     <nav>
         <ul>
             <li>
-                <a href="{{ route('home')}}">Home</a>
+                <a class="{{Request::route()->getName() == 'home'? 'active' : null}}"href="{{ route('home')}}">Home</a>
             </li>
             <li>
-                <a href="{{route('products')}}">Prodotti</a>
+                <a class="{{Request::route()->getName() == 'products'? 'active' : null}}"href="{{route('products')}}">Prodotti</a>
             </li>
             <li>
-                <a href="{{route('news')}}">News</a>
+                <a class="{{Request::route()->getName() == 'news'? 'active' : null}}"href="{{route('news')}}">News</a>
             </li>
         </ul>
     </nav>
